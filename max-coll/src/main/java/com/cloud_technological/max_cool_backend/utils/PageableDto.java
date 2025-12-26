@@ -1,8 +1,10 @@
 package com.cloud_technological.max_cool_backend.utils;
 
 
-import jakarta.validation.constraints.Digits;
-import jakarta.validation.constraints.NotNull;
+
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.NotNull;
+
 import lombok.Getter;
 import lombok.Setter;
 

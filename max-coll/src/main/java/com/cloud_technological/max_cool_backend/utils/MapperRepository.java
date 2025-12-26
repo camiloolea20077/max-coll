@@ -1,6 +1,5 @@
 package com.cloud_technological.max_cool_backend.utils;
 
-
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.sql.Array;
@@ -16,11 +15,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.io.IOException;
 import java.util.Date;
+import springfox.documentation.spring.web.json.Json;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import io.swagger.v3.core.util.Json;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
